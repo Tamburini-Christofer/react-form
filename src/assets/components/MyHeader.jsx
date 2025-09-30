@@ -5,7 +5,6 @@ function MyHeader() {
         <header>
             <div>
                 <h1>Post Generator</h1>
-                
             </div>
         </header>
     </>
