@@ -63,7 +63,7 @@ const MyMain = () => {
           <li key={post.id}>
             {post.title}
             <i
-              class="fa-solid fa-trash iconDel"
+              className="fa-solid fa-trash iconDel"
               onClick={() => handleDelete(post.id)}
             ></i>
           </li>
