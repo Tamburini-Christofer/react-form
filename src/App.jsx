@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+import MyHeader from "./assets/components/MyHeader";
+import MyMain from "./assets/components/MyMain";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <MyHeader />
-      <MyMain />
+      <div className="conteinerGeneral">
+        <MyHeader />
+        <MyMain />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

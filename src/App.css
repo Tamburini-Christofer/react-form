@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(59, 56, 43);
+}
+
+h1{
+  text-align: center;
+  color: rgb(151, 35, 35);
+}
+
+.conteinerGeneral{
+    width: 90%;
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+    margin: 7% auto;
+}
+
+.inputPost{
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px; 
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.btnInput {
+  
+}
