@@ -9,20 +9,23 @@ body{
 }
 
 h1{
+  font-family: "Bitcount Prop Single Ink";
+  font-size: 50px;
   text-align: center;
   color: rgb(151, 35, 35);
 }
 
 .conteinerGeneral{
+  border-radius: 30px;
+  padding: 40px;
     width: 90%;
-    height: 1200px;
     background-color: rgb(255, 255, 255);
-    margin: 7% auto;
+    margin: 2% auto;
 }
 
 .inputPost{
-    border: 1px solid red;
-    padding: 5px;
+    border: 2px solid rgb(60, 0, 255);
+    padding: 10px;
     border-radius: 10px;
     margin: 10px; 
 }
@@ -30,8 +33,52 @@ h1{
 .form{
   display: flex;
   justify-content: center;
+  margin: 20px 0;
 }
 
 .btnInput {
-  
+  cursor: pointer;
+    margin: 0px 30px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(88, 88, 251);
+    color: white;
+}
+
+.btnInput:hover{
+  background-color: rgb(190, 209, 25);
+  color: black;
+
+}
+
+.iconDel{
+  cursor: pointer;
+  text-align: end;
+}
+
+.iconDel:hover{
+  transform: scale(1.2);
+  color: red;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px dashed black;
+  margin: 10px 0;
+  background-color: rgba(173, 157, 157, 0.298);
+}
+
+li:hover{
+  cursor: pointer;
+  background-color: rgba(192, 155, 52, 0.564);
 }

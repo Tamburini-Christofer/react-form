@@ -41,17 +41,16 @@ const MyMain = () => {
           <input
             className="inputPost"
             type="text"
-            placeholder="Nuovo Post"
+            placeholder="Genera nuovo post"
             value={newPost}
             onChange={(e) => setNewPost(e.target.value)}
           />
-          <button type="submit" className="btnInput">Inserisci Post</button>
+          <button type="submit" className="btnInput">Genera Post</button>
         </form>
-
-        {posts.map((post) => (
+                {posts.map((post) => (
           <li key={post.id}>
             {post.title}
-            <button onClick={() => handleDelete(post.id)}>Elimina</button>
+            <i class="fa-solid fa-trash iconDel"onClick={() => handleDelete(post.id)}></i>
           </li>
         ))}
       </ul>
